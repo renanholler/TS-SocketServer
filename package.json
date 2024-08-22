@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "start": "tsc && node dist/app.js"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
@@ -21,7 +25,5 @@
     "typescript": "^5.5.4",
     "typescript-eslint": "^8.2.0"
   },
-  "scripts": {
-    "prepare": "husky install"
-  }
+  "dependencies": {}
 }
